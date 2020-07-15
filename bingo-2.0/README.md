@@ -1,6 +1,4 @@
-[Version 2.0: October 2014]
-
-===============================================================================
+# BINGO: BI-spectra and Non-Gaussianity Operator
 
 The BI-spectra and Non-Gaussianity Operator or, simply, BINGO, is a 
 FORTRAN 90 code that numerically evaluates the scalar bi-spectrum and 
@@ -21,12 +19,11 @@ JCAP 1305, 026 (2013)]. The results for the arbitrary triangular configurations
 of wavenumbers can be found in V. Sreenath, D. K. Hazra and L. Sriramkumar, On 
 the scalar consistency relation away from slow roll, In preparation.
 
-===============================================================================
 
-Downloading and installing
---------------------------
+##Downloading and installing
 
-1. Download bingo-2.0.tar.gz into your home folder and extract it.
+
+1. got clone or download bingo-2.0.tar.gz into your home folder and extract it.
 
 2. Open the Makefile
 
@@ -186,7 +183,7 @@ Note that the information about the model and model parameters can be found
 in the fnlparams.ini files. 
 ================================================================================
 
-Vesion history and changelogs :
+### Vesion history and changelogs :
 
 --------------------------------------------------------------------------------
 
@@ -227,7 +224,7 @@ The code is expected to contain the following features:
 4. After the Planck 2014 release, we plan to provide an add-on of BINGO for CAMB 
 which can directly be used for parameter estimation.
 
-Please write to us (at dhirajhazra@gmail.com) in case you identify a bug in the code 
+Please write to me (at dhirajhazra@gmail.com) in case you identify a bug in the code 
 or if you need any assistance with the code.
 
 ================================================================================
