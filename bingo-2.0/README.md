@@ -20,7 +20,7 @@ of wavenumbers can be found in V. Sreenath, D. K. Hazra and L. Sriramkumar, On
 the scalar consistency relation away from slow roll, In preparation.
 
 
-##Downloading and installing
+## Downloading and installing
 
 
 1. got clone or download bingo-2.0.tar.gz into your home folder and extract it.
