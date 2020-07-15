@@ -49,9 +49,9 @@ the scalar consistency relation away from slow roll, In preparation.
 
 5. From a terminal, execute
 
-   ''' 
-   make clean
-   '''
+'''
+make clean
+'''
 
    This will clean the unwanted files (if any) for a fresh install.
   
