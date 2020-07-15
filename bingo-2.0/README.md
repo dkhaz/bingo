@@ -209,6 +209,7 @@ Python scripts to plot 2D density plot and 3D contour plots of bispectrum.
 Added mpif90 option to run BINGO in multiple nodes.
 
 Term = 0 calculates the total f_nl from all terms in the bispectrum.
+
 --------------------------------------------------------------------------------
 
 
@@ -218,6 +219,7 @@ The first release of BINGO. Calculation of the bispectrum in the equilateral
 triangular configurations of wavenumbers. 
 
 Calculation of power spectrum.  
+
 --------------------------------------------------------------------------------
 
 
