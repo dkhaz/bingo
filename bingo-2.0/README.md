@@ -49,7 +49,9 @@ the scalar consistency relation away from slow roll, In preparation.
 
 5. From a terminal, execute
 
-   $ make clean
+   ''' 
+   make clean
+   '''
 
    This will clean the unwanted files (if any) for a fresh install.
   
@@ -210,8 +212,6 @@ Calculation of power spectrum.
 --------------------------------------------------------------------------------
 
 
-================================================================================
-
 In due course, we expect to make a more complete version of the code available.
 The code is expected to contain the following features:
 
@@ -227,5 +227,4 @@ which can directly be used for parameter estimation.
 Please write to me (at dhirajhazra@gmail.com) in case you identify a bug in the code 
 or if you need any assistance with the code.
 
-================================================================================
 
