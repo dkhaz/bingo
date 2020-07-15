@@ -49,24 +49,29 @@ the scalar consistency relation away from slow roll, In preparation.
 
 5. From a terminal, execute
 
-'''
+```
 make clean
-'''
+```
 
    This will clean the unwanted files (if any) for a fresh install.
   
 6. Then compile with 
 
-   $ make all
+  ```
+  make all
+  ```
 
 7. Then run with 
 
-   $ make run
+```
+make run
+```
 
    The data files will be stored in plots directory. DO NOT DELETE the plots 
    directory.
-   
-   $ make prun 
+```   
+make prun 
+```
    
    runs in 2 nodes. To increase the number of nodes, change the number of 
    nodes in the Makefile.
@@ -76,7 +81,9 @@ make clean
    
 8. Produce plots with 
 
-   $ make figs
+```
+make figs
+```
 
    You must have GNUPLOT installed to produce them.
 
@@ -155,8 +162,11 @@ make clean
   
 14.  To generate 3D color plots. 
 
-     Instead of $make all, use $make bingo3d.  
-     
+     Instead of $make all, use 
+     ```
+     make bingo3d.  
+     ```
+          
      Change num_k=60 in the corresponding fnlparams.ini file. This will evaluate 
      in 60 * 60 * 60 = 2160000 configurations.
      
@@ -181,9 +191,8 @@ make clean
      in total_chains (default set to 60) and the number of lines per file should be provided
      in total_lines.
     
-Note that the information about the model and model parameters can be found 
-in the fnlparams.ini files. 
-================================================================================
+Note that the information about the model and model parameters can be found in the fnlparams.ini files. 
+
 
 ### Vesion history and changelogs :
 
