@@ -23,12 +23,12 @@ the scalar consistency relation away from slow roll, In preparation.
 ## Downloading and installing
 
 
-1. got clone or download bingo-2.0.tar.gz into your home folder and extract it.
+1. clone or download bingo-2.0.tar.gz into your home folder and extract it.
 
 2. Open the Makefile
 
    There are 2 make options (Intel FORTRAN compiler and gfortran (with mpi support). 
-   Note that the code is mostly tested with intel FORTRAN compilers. Though, for other 
+   Note that the code has mostly been tested with intel FORTRAN compilers. Though, for other 
    compilers it should work as well). 
 
 3. Choose the correct make option (comment out the inappropriate ones) 
@@ -175,10 +175,10 @@ make figs
      a. Remember to use more nodes since this might take long time to complete. num_k should 
      be integer multiple of the number of nodes.
      
-     b. There will be degeneracies in k1,k2,k3 plane. The code is not optimized to 
+     b. There will be degeneracies in k1, k2, k3 plane. The code is not optimized to 
      reduce this degeneracies since the python plotscript needs the file in a specified format. 
      
-     c. For k1,k2,k3 that does not satisfy the triangular configurations, only in this 
+     c. For k1, k2,k3 that does not satisfy the triangular configurations, only in this 
      particular case the code replaces them by 0. This is necessary for the plotting purpose.
      
      d. $make gather followed by ./gatherall.out will compile a program to join the 
